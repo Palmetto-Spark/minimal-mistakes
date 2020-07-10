@@ -17,6 +17,7 @@
   animation: $intro-transition;
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
+  
 
   @include breakpoint($x-large) {
     max-width: $x-large;
@@ -79,7 +80,7 @@
       line-height: 1.5;
       text-align: center;
       text-decoration: none;
-      color: $muted-text-color;
+      color: #ffffff;
       border: 1px solid mix(#000, $border-color, 25%);
       border-radius: 0;
 
@@ -128,7 +129,7 @@
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: $muted-text-color;
+    color: #ffffff;
     border: 1px solid mix(#000, $border-color, 25%);
     border-radius: $border-radius;
 
@@ -177,7 +178,7 @@
   -ms-flex-align: center;
   align-items: center;
   min-height: $nav-height;
-  background: $background-color;
+  background: #092240;
 
   a {
     display: block;
@@ -186,17 +187,18 @@
     text-decoration: none;
 
     &:hover {
-      color: $masthead-link-color-hover;
+      color: #fff;
+
     }
 
-    &.site-logo {
+    /*&.site-logo {
       margin-left: 0;
       margin-right: 0.5rem;
     }
 
     &.site-title {
       margin-left: 0;
-    }
+    }*/
   }
 
   &__toggle {
@@ -205,7 +207,7 @@
     height: $nav-toggle-height;
     border: 0;
     outline: none;
-    background-color: transparent;
+    background-color: #092240;
     cursor: pointer;
   }
 
@@ -533,13 +535,13 @@
   a {
     display: block;
     padding: 0.25rem 0.75rem;
-    color: $muted-text-color;
+    color: #ffffff;
     font-weight: bold;
     line-height: 1.5;
     border-bottom: 1px solid $border-color;
 
     &:hover {
-      color: $text-color;
+      color: #ffffff;
     }
   }
 
