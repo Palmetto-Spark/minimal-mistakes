@@ -4,12 +4,14 @@
 
 .masthead {
   position: relative;
-  border-bottom: 1px solid $border-color;
+  //border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  background-color: #092240;
+
 
   &__inner-wrap {
     @include clearfix;
@@ -24,6 +26,8 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     font-family: $sans-serif-narrow;
+    text-transform: uppercase;
+  
 
     @include breakpoint($x-large) {
       max-width: $max-width;
@@ -49,7 +53,8 @@
   display: flex;
   -ms-flex-item-align: center;
   align-self: center;
-  font-weight: bold;
+  font-weight: 100;
+  
   // z-index: 20;
 }
 
